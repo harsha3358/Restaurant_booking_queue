@@ -1,9 +1,21 @@
-## Restaurant Booking Queue System<br>
-This project implements a queue management system for restaurant bookings. It ensures efficient handling of reservations by allowing customers to be added to a queue, with features to manage waitlists and handle bookings based on availability.<br><br>
+# Restaurant Booking Queue
 
-## Features<br>
-Add Bookings: Allows customers to be added to the booking queue.<br>
-Manage Waitlist: Automatically places customers in a waitlist if all slots are filled.<br>
-Queue Handling: Ensures customers are served in the order of their booking.<br>
-Remove Bookings: Enables deletion of bookings from the queue.<br>
-Persistent Data: Saves booking information for later access.
+A notebook project that models restaurant reservations and waiting lists with a queue.
+
+## Why it matters
+
+When tables are limited, customers should be handled in a fair and predictable order. This project demonstrates the first-in, first-out logic behind a simple booking operation.
+
+## What it covers
+
+- Adding customer bookings
+- Placing customers on a waitlist
+- Serving bookings in arrival order
+- Removing or updating queue entries
+- Preserving booking information
+
+## Technology
+
+Python, queues, and Jupyter Notebook.
+
+Open `QUEUE_file.ipynb` in Jupyter and run the cells in order.
